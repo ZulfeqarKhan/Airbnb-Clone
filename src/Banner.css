@@ -1,0 +1,43 @@
+.banner {
+  background: url("https://a0.muscache.com/im/pictures/f0483d09-7d13-42d0-a40a-46d585c42220.jpg?im_q=highq&im_w=1440")
+    center center;
+  height: 85vh;
+  position: relative;
+}
+
+.banner__search {
+  display: flex;
+  flex-direction: column;
+}
+
+.banner__searchButton {
+  background-color: white !important ;
+  font-weight: 700 !important;
+  color: #ff385c !important;
+}
+
+.banner__info {
+  color: white;
+  padding-top: 28vh;
+  padding-left: 70px;
+  padding-right: 40px;
+  padding-bottom: 12px;
+  width: 300px;
+  font-size: 50px;
+  font-weight: 900;
+  letter-spacing: -0.02em;
+  line-height: 75.92px;
+}
+
+.banner__info > button {
+  background-color: #ff385c;
+  color: white;
+  text-transform: inherit !important;
+  margin-top: 10px;
+  border-radius: 10px;
+}
+
+.banner__info > button:hover {
+  background-color: white;
+  color: #ff385c;
+}

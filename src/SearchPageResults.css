@@ -1,0 +1,80 @@
+.searchPageResults {
+  display: flex;
+  position: relative;
+  margin: 20px;
+  padding: 20px;
+  border-bottom: 1px solid lightgray;
+  cursor: pointer;
+}
+
+.searchPageResults:hover {
+  opacity: 0.8;
+}
+
+.searchPageResults > img {
+  height: 200px;
+  width: 350px;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.searchPageResults__info {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-left: 20px;
+}
+
+.searchPageResults__heart {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+}
+
+.searchPageResults__heart:hover {
+  color: #ff385c;
+}
+
+.searchPageResults__infoTop {
+  width: 40vw;
+}
+
+.searchPageResults__infoTop > h3 {
+  font-weight: 400;
+  margin-top: 10px;
+}
+
+.searchPageResults__infoTop > p {
+  margin-top: 5px;
+  font-size: 13px;
+  color: gray;
+}
+
+.searchPageResults__infoBottom {
+  display: flex;
+  justify-content: space-between;
+}
+
+.searchPageResults__star {
+  color: #ff385c;
+}
+
+.searchPageResults__stars {
+  display: flex;
+  align-items: center;
+  color: rgba(53, 53, 53, 0.986);
+}
+
+.searchPageResults__price {
+  position: absolute;
+  bottom: 20px;
+  right: 30px;
+}
+
+.searchPageResults__price > h2 {
+  font-size: 20px;
+  font-weight: 500;
+}
+.searchPageResults__price > p {
+  text-align: right;
+}

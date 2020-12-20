@@ -1,0 +1,41 @@
+.home > h1 {
+  font-size: 32px;
+  font-weight: 700;
+  color: rgb(34, 34, 34);
+  line-height: 36px;
+  padding-left: 40px;
+  padding-top: 50px;
+}
+
+.home__cities {
+  display: flex;
+  padding-left: 70px;
+}
+
+.home__section {
+  display: flex;
+  padding: 30px;
+}
+
+.home > h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 40px;
+}
+
+.home__middleCard {
+  background-color: black;
+  color: white;
+}
+
+.home__middleCard > h1 {
+  font-weight: 700;
+  padding-top: 20px;
+  padding-left: 40px;
+}
+
+.home__middleCard > h4 {
+  font-size: 16px;
+  font-weight: 400;
+  padding-left: 42px;
+}
